@@ -1,75 +1,75 @@
-# Alt-Text-Frontend
+# Alt-Text Frontend
 
-A Next.js based website meant to showcase the [Alt-Text PyPi Package](https://github.com/EbookFoundation/alt-text).
+A **Next.js-based web application** designed to showcase the [Alt-Text PyPI Package](https://github.com/EbookFoundation/alt-text).
 
-## Features
+---
 
-Upon creating an account, the user will be able to upload Ebooks (either HTML or EPUB format) to which our servers will analyze it and generate descriptions for images lacking alt-text.
+## 🧩 Overview
 
-They can then use a dashboard to view, edit, and approve both the generated and already existing alt-text within the Ebook.
+The **Alt-Text Frontend** enables users to upload **Ebooks** (in **HTML** or **EPUB** format).  
+Once uploaded, our servers analyze the Ebook and **automatically generate alt-text descriptions** for images that lack them.
 
-A user can create groups in which they can invite other users, allowing for multiple users to edit and approve the alt-text within the group's Ebooks.
+Users can then use an intuitive **dashboard** to:
+- View and manage both AI-generated and existing alt-texts  
+- Edit or approve image descriptions  
+- Collaborate in **groups**, where multiple users can edit and approve alt-texts within shared Ebooks  
 
-## Getting Started
+---
 
-TBD
+## 🚀 Getting Started
 
-## Our Mission
+**(TBD — setup instructions coming soon)**
 
-The Alt-Text project is developed for the [Free Ebook Foundation](https://ebookfoundation.org/) as a Senior Design Project at [Stevens Institute of Technology](https://www.stevens.edu/).
+---
 
-As Ebooks become a more prominant way to consume written materials, it only becomes more important for them to be accessible to all people. Alternative text (aka alt-text) in Ebooks are used as a way for people to understand images in Ebooks if they are unable to use images as intended (e.g. a visual impaired person using a screen reader to read an Ebook).
+## 🌍 Our Mission
 
-While this feature exists, it is still not fully utilized and many Ebooks lack alt-text in some, or even all their images. To illustrate this, the [Gutenberg Project](https://gutenberg.org/), the creator of the Ebook and now a distributor of Public Domain Ebooks, have over 70,000 Ebooks in their collection and of those, there are about 170,000 images without alt-text.
+The **Alt-Text Project** is developed for the [Free Ebook Foundation](https://ebookfoundation.org/)  
+as a **Senior Design Project** at [Stevens Institute of Technology](https://www.stevens.edu/).
 
-The Alt-Text project's goal is to use the power of AI, Automation, and the Internet to craft a solution capable of automatically generating descriptions for images lacking alt-text in Ebooks, closing the accessibility gap and improving collections, such as the [Gutenberg Project](https://gutenberg.org/).
+As Ebooks continue to grow as a primary medium for reading, ensuring they are **accessible to everyone** becomes increasingly important.
 
-### Contact Information
+**Alternative text (alt-text)** plays a vital role in accessibility — it allows visually impaired users relying on screen readers to understand images in Ebooks.  
+However, many Ebooks still lack proper alt-text.
 
-The emails and relevant information of those involved in the Alt-Text project can be found below.
+For instance, the [Project Gutenberg](https://gutenberg.org/), which distributes over **70,000** public domain Ebooks, contains around **170,000 images without alt-text**.
 
-#### The Deveolpers
+**Our goal:**  
+To leverage **AI, automation, and web technologies** to automatically generate meaningful image descriptions — closing the accessibility gap and enhancing Ebook collections like those of Project Gutenberg.
 
-- Jack Byrne
-  - jbyrne4@stevens.edu
-- David Cruz
-  - da.cruz@aol.com
-  - [David's Website](https://xxmistacruzxx.github.io/)
-  - [David's Github](https://github.com/xxmistacruzxx)
-  - [David's LinkedIn](https://www.linkedin.com/in/davidalexandercruz/)
-- Jared Donnelly
-  - jdonnel3@stevens.edu
-- Ethan Kleschinsky
-  - ekleschi@stevens.edu
-- Tyler Lane
-  - tlane@stevens.edu
-- Carson Lee
-  - clee27@stevens.edu
+---
 
-#### The Client
+## 👥 Team & Contact Information
 
-- Eric Hellman
-  - eric@hellman.net
+### **Developers**
+- **Jack Byrne** — jbyrne4@stevens.edu  
+- **David Cruz**
+  - ✉️ da.cruz@aol.com  
+  - 🌐 [Website](https://xxmistacruzxx.github.io/)  
+  - 💻 [GitHub](https://github.com/xxmistacruzxx)  
+  - 🔗 [LinkedIn](https://www.linkedin.com/in/davidalexandercruz/)  
+- **Jared Donnelly** — jdonnel3@stevens.edu  
+- **Ethan Kleschinsky** — ekleschi@stevens.edu  
+- **Tyler Lane** — tlane@stevens.edu  
+- **Carson Lee** — clee27@stevens.edu  
 
-#### Advisor
+### **Client**
+- **Eric Hellman** — eric@hellman.net  
 
-- Aaron Klappholz
-  - aklappho@stevens.edu
+### **Faculty Advisor**
+- **Aaron Klappholz** — aklappho@stevens.edu  
 
-## APIs, Tools, & Libraries Used
+---
 
-Alt-Text is developed and delpoyed using an assortment of modern Javascript frameworks and tools...
+## 🧰 APIs, Tools, & Libraries
 
-### Development Tools
+Alt-Text is developed and deployed using modern JavaScript frameworks and tooling.
 
-Alt-Text-Frontend is developed using...
+### **Development Stack**
+- [Next.js](https://nextjs.org/) — React framework for production-grade web apps  
+- [React](https://react.dev/) — Frontend library for building UI components  
+- [Sass](https://sass-lang.com/) — CSS preprocessor for styling  
 
-- [Next.js](https://nextjs.org/)
-- [React](https://react.dev/)
-- [Sass](https://sass-lang.com/)
-
-### Packaging/Distribution Tools
-
-Alt-Text-Frontend is deployed using...
-
-- [Vercel](https://vercel.com/ebook-foundation)
+### **Deployment**
+- [Vercel](https://vercel.com/ebook-foundation) — Cloud platform for deploying and hosting the Alt-Text Frontend
+- 
